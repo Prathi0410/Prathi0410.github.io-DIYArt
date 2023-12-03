@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DIY Art Suggestions</title>
+</head>
+<body>
+    <header>
+        <h1>DIY Art Suggestions</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <div class="filters">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="painting">Painting</option>
+                <option value="crafts">Crafts</option>
+                <!-- Add more categories as needed -->
+            </select>
+            <button onclick="applyFilters()">Apply Filters</button>
+        </div>
+
+        <div class="art-gallery">
+            <!-- Images and descriptions will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 DIY Art Suggestions</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
